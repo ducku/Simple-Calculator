@@ -25,8 +25,8 @@ public class SimpleCalculator {
 		a = scan.nextDouble();
 		System.out.println("Enter first value");
 		b = scan.nextDouble();	
-		//TODO return a divided by b
-	
+		//TODO return type double: a divided by b
+		
 
 		//return ;
 	}
@@ -38,7 +38,7 @@ public class SimpleCalculator {
 		a = scan.nextDouble();
 		System.out.println("Enter first value");
 		b = scan.nextDouble();
-		//TODO return a multiplied by b
+		//TODO return type double: a multiplied by b
 
 		//return ;
 	}
@@ -50,7 +50,7 @@ public class SimpleCalculator {
 		a = scan.nextDouble();
 		System.out.println("Enter first value");
 		b = scan.nextDouble();
-		//TODO return a minus b
+		//TODO return type double: a minus b
 
 		//return val;
 	}
@@ -62,7 +62,7 @@ public class SimpleCalculator {
 		a = scan.nextDouble();
 		System.out.println("Enter first value");
 		b = scan.nextDouble();
-		//TODO return a plus b
+		//TODO return type double: a plus b
 
 		//return ;
 	}
@@ -74,7 +74,7 @@ public class SimpleCalculator {
 		a = scan.nextDouble();
 		System.out.println("Enter first value");
 		b = scan.nextDouble();
-		//TODO return a to the power of b
+		//TODO return type double: a to the power of b
 		//hint: Math.pow()
 
 		//return ;
@@ -85,11 +85,12 @@ public class SimpleCalculator {
 		double a;
 		System.out.println("Enter first value");
 		a = scan.nextDouble();
-		//TODO return the squareroot of a
+		//TODO return type double: squareroot of a
 		//hint raise a to the power of 1/2
 
 		//return ;
 	}	
+	
 
 	public static void main(String[] args) {
 		SimpleCalculator calc = new SimpleCalculator();
