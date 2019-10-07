@@ -23,10 +23,11 @@ public class SimpleCalculator {
 		System.out.println("Enter first value");
 		a = scan.nextDouble();
 		System.out.println("Enter first value");
-		b = scan.nextDouble();
-		double val = a / b;
+		b = scan.nextDouble();	
+		//TODO return a divided by b
+	
 
-		return val;
+		//return ;
 	}
 
 	public double mutliplication() {
@@ -36,9 +37,9 @@ public class SimpleCalculator {
 		a = scan.nextDouble();
 		System.out.println("Enter first value");
 		b = scan.nextDouble();
-		double val = a * b;
+		//TODO return a multiplied by b
 
-		return val;
+		//return ;
 	}
 
 	public double substraction() {
@@ -48,9 +49,9 @@ public class SimpleCalculator {
 		a = scan.nextDouble();
 		System.out.println("Enter first value");
 		b = scan.nextDouble();
-		double val = a - b;
+		//TODO return a minus b
 
-		return val;
+		//return val;
 	}
 
 	public double addition() {
@@ -60,9 +61,9 @@ public class SimpleCalculator {
 		a = scan.nextDouble();
 		System.out.println("Enter first value");
 		b = scan.nextDouble();
-		double val = a + b;
+		//TODO return a plus b
 
-		return val;
+		//return ;
 	}
 
 	public static void main(String[] args) {
