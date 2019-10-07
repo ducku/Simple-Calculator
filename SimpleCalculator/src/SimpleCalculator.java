@@ -1,5 +1,6 @@
 import java.util.Locale;
 import java.util.Scanner;
+import java.util.Math;
 /*Very very simple Java Calculator for beginners just for 4 operations on 
  * two variables without exception and while loop*/
 
@@ -65,6 +66,30 @@ public class SimpleCalculator {
 
 		//return ;
 	}
+
+	public double exponent() {
+		scan.useLocale(Locale.US);
+		double a, b;
+		System.out.println("Enter first value");
+		a = scan.nextDouble();
+		System.out.println("Enter first value");
+		b = scan.nextDouble();
+		//TODO return a to the power of b
+		//hint: Math.pow()
+
+		//return ;
+	}
+
+	public double squareroot() {
+		scan.useLocale(Locale.US);
+		double a;
+		System.out.println("Enter first value");
+		a = scan.nextDouble();
+		//TODO return the squareroot of a
+		//hint raise a to the power of 1/2
+
+		//return ;
+	}	
 
 	public static void main(String[] args) {
 		SimpleCalculator calc = new SimpleCalculator();
