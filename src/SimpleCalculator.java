@@ -43,15 +43,15 @@ public class SimpleCalculator {
 		//return ;
 	}
 
-	public double substraction() {
+	public double subtraction() {
 		scan.useLocale(Locale.US);
 		double a, b;
 		System.out.println("Enter first value");
 		a = scan.nextDouble();
-		System.out.println("Enter first value");
+		System.out.println("Enter second value");
 		b = scan.nextDouble();
 		//TODO return type double: a minus b
-
+        return(a - b);
 		//return val;
 	}
 
