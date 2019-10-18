@@ -78,16 +78,13 @@ public class SimpleCalculator {
 		//return ;
 	}
 
-	public double squareroot() {
+≈	public double squareroot() {
 		scan.useLocale(Locale.US);
 		double a;
 		System.out.println("Enter first value");
 		a = scan.nextDouble();
-		//TODO return type double: squareroot of a
-		//hint raise a to the power of 1/2
-
-		//return ;
-	}	
+		return Math.pow(a, 0.5);
+	}
 	
 
 	public static void main(String[] args) {
