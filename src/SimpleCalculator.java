@@ -25,7 +25,7 @@ public class SimpleCalculator {
 		a = scan.nextDouble();
 		System.out.println("Enter first value");
 		b = scan.nextDouble();	
-		//return type double: a divided by b
+		//returns a divided by b
 		return a / b;
 	}
 
