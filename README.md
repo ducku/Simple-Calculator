@@ -1,3 +1,3 @@
 # Very-Simple-Java-Calculator
-For beginners 4 operations without exceptions and while loop.
-Basic
+Example showing how to make commits and merge branches.
+CS-Capstone
