@@ -37,8 +37,7 @@ public class SimpleCalculator {
 		System.out.println("Enter first value");
 		b = scan.nextDouble();
 		//TODO return type double: a multiplied by b
-
-		//return ;
+		return a * b;
 	}
 
 	public double subtraction() {
@@ -61,8 +60,7 @@ public class SimpleCalculator {
 		System.out.println("Enter first value");
 		b = scan.nextDouble();
 		//TODO return type double: a plus b
-
-		//return ;
+		return a + b;
 	}
 
 	public double exponent() {
@@ -74,8 +72,7 @@ public class SimpleCalculator {
 		b = scan.nextDouble();
 		//TODO return type double: a to the power of b
 		//hint: Math.pow()
-
-		//return ;
+		return Math.pow(a, b);
 	}
 
 ≈	public double squareroot() {
